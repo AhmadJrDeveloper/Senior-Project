@@ -1,0 +1,91 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 60px;
+}
+
+.container .content {
+  text-align: center;
+}
+
+.container .content h3 {
+  font-size: 30px;
+  color: #333;
+}
+
+.container .content h3 span {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+.container .content form {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  background: #fff;
+  text-align: center;
+  width: 500px;
+}
+
+.container .content form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.container .content label {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.container .content textarea {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+.container .content input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 30px;
+  font-size: 20px;
+  background: #333;
+  color: #fff;
+  margin-top: 20px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+
+
+
+.container .content #output {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
